@@ -1,0 +1,229 @@
+body {
+  position: relative;
+  padding-bottom: 110px;
+  min-height: 100vh;
+}
+
+/* Wrapper */
+.seccion {
+  width: 1350px;
+  background-image: url(./img/Pastel1.jpg);
+  background-size: cover;
+  background-position-y: 950px;
+  background-position-x: 1400px;
+  width: 1330px;
+  height: 866px;
+}
+/* Header */
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fff;
+  padding-bottom: 15px;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+/* Links-nav */
+.links-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 35px;
+}
+.links-nav ul li a {
+  transition: color 0.3s ease;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+.links-nav ul li a:hover {
+  color: #c92a2a;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+/* Secion */
+.secion ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 20px;
+}
+.secion ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.iniciar {
+  transition: box-shadow 0.3s ease;
+  background-color: #f4f5f7;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+.iniciar:hover {
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.iniciar a {
+  color: #c92a2a;
+}
+.registrarse {
+  transition: box-shadow 0.3s ease;
+  background-color: #c92a2a;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+.registrarse:hover {
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.registrarse a {
+  color: #fff;
+}
+
+/* Center-right */
+.center-right {
+  width: 50%;
+  height: 600px;
+  float: right;
+  margin-top: 100px;
+  margin-right: 25px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+.eslogan .h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.eslogan .sb {
+  font-family: "Poppins", sans-serif;
+  font-size: 18x;
+  line-height: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.eslogan .pedido {
+  transition: all 0.3s ease;
+  background-color: #ff1700;
+  padding: 12px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16x;
+  line-height: 24px;
+  border-radius: 10px;
+  margin-left: 220px;
+  color: #fff;
+  text-decoration: none;
+}
+.eslogan .pedido:hover {
+  background-color: #ffe400;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+  color: #0b0d17;
+}
+
+/* Footer */
+.pie {
+  clear: both;
+  background-color: #0b0d17;
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  position: absolute;
+  bottom: 0;
+  width: 1330px;
+}
+
+/* Copy */
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy small {
+  font-family: "Poppins", sans-serif;
+  font-size: 14x;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+
+/* Logo */
+.logo-pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-pie h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+.logo_pie {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* Social */
+.pie-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-social ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+.img-social {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  cursor: pointer;
+}
